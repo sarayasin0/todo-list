@@ -1,8 +1,8 @@
-# Todo Management Application
+# Todo Management
 
 ## Overview
 
-This project is a Todo Management Application built with React and Ant Design. It allows users to manage their tasks efficiently with features for authentication, profile management, and todo list handling.
+This project is a Todo Management built with React and Ant Design. It allows users to manage their tasks efficiently with features for authentication, profile management, and todo list handling.
 
 ## Features
 
@@ -26,16 +26,16 @@ This project is a Todo Management Application built with React and Ant Design. I
 ## Screenshots
 
 ![SignUp Page](./src/assets/screenshots/signup.png)
-*SignUp PageStore Management Screen*
+*SignUp Page*
 
-![SignIn Page](./src/assets/Screenshots/signin.png)
+![SignIn Page](./src/assets/screenshots/signin.png)
 *SignIn Page*
 
-![Task Page ](./src/assets/Screenshots/tasks.png)
-*Task Page *
+![Task Page](./src/assets/screenshots/tasks.png)
+*Task Page*
 
-![Profile Page ](./src/assets/Screenshots/profile.png)
-*Profile Page *
+![Profile Page](./src/assets/screenshots/profile.png)
+*Profile Page*
 
 ## Installation
 
@@ -73,4 +73,4 @@ To install and run this project locally, follow these steps:
 
 ## Contact
 
-   For any questions or feedback, please contact (sara.yassen727@gmailcom).
+For any questions or feedback, please contact (sara.yassen727@gmail.com).
