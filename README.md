@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Todo Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a Todo Management Application built with React and Ant Design. It allows users to manage their tasks efficiently with features for authentication, profile management, and todo list handling.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### User Authentication
+- **Sign Up**: Easily create a new account to start managing your tasks.
+- **Sign In**: Securely log in to access your personalized todo list.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Profile Management
+- **View Profile**: Check your profile information at any time.
+- **Edit Profile**: Update your name, email, and password for a personalized experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Todo List Management
+- **Add Tasks**: Quickly add new tasks to keep track of your to-dos.
+- **Delete Tasks**: Remove tasks that are no longer needed.
+- **Set Priority**: Prioritize your tasks to focus on what's most important.
+- **Set Due Date**: Keep track of deadlines by assigning due dates to your tasks.
 
-### `npm test`
+### Persistent Data
+- **Local Storage**: Your data is stored locally, ensuring your tasks and profile information are always available even after you log out.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+![SignUp Page](./src/assets/screenshots/signup.png)
+*SignUp PageStore Management Screen*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![SignIn Page](./src/assets/Screenshots/signin.png)
+*SignIn Page*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Task Page ](./src/assets/Screenshots/tasks.png)
+*Task Page *
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Profile Page ](./src/assets/Screenshots/profile.png)
+*Profile Page *
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To install and run this project locally, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   cd your-repository
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Install the dependencies:**
 
-## Learn More
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   This project requires the following dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   - `antd` (version ^5.19.3): A design system for enterprise-level products.
+   - `moment` (version ^2.30.1): A library for handling dates and times.
+   - `react` (version ^18.3.1): A JavaScript library for building user interfaces.
+   - `react-dom` (version ^18.3.1): React's DOM renderer.
+   - `react-router-dom` (version ^6.25.1): Routing library for React applications.
+   - `react-scripts` (version 5.0.1): Scripts and configuration used by Create React App.
 
-### Code Splitting
+3. **Start the development server:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   npm start
+   ```
 
-### Analyzing the Bundle Size
+   This will start the application and open it in your default web browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   For any questions or feedback, please contact (sara.yassen727@gmailcom).
